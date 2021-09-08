@@ -2,6 +2,8 @@
 Example JupyterHub deployment with granular RTC sharing permissions
 
 ## Demo
+![JupyterHub_RTC_collaboration](https://user-images.githubusercontent.com/8834829/132590167-58e9810f-f1d4-4ae2-a374-efe3245ea163.gif)
+
 
 ## Motivation
 
