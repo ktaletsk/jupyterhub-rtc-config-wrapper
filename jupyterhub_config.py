@@ -53,7 +53,7 @@ for user in users:
     usernames_reading_role = {
         'name': f'usernames_reading_{user}_role',
         'description': 'Usernames reading group',
-        'scopes': ['read:users:name'],
+        'scopes': ['list:users'],
         'users': [f'{user}']
     }
 
@@ -62,8 +62,8 @@ for user in users:
     roles.append(usernames_reading_role)
 
 roles.append({
-   'name': 'server',
-   'scopes': ['all'],
+  'name': 'server',
+  'scopes': ['all'],
  })
 
 c.JupyterHub.load_groups = groups
@@ -87,5 +87,5 @@ c.JupyterHub.services = [
     "name": "service-token",
     "admin": True,
     "api_token": os.getenv('JUPYTERHUB_WRAPPER_SERVICE_TOKEN'),
-  },
+  }
 ]
