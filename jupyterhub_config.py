@@ -63,7 +63,7 @@ for user in users:
 
 roles.append({
   'name': 'server',
-  'scopes': ['all'],
+  'scopes': ['inherit'],
  })
 
 c.JupyterHub.load_groups = groups

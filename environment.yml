@@ -24,7 +24,7 @@ dependencies:
   - tornado=6
   - traitlets=5
   - pip:
-    - jupyterhub==2.0.0b3
+    - jupyterhub==2.0.0rc3
     - escapism
     - jupyterlab-rtc-hub-settings==0.1.1
     - jupyterlab-link-share==0.2.0
