@@ -9,7 +9,7 @@ dependencies:
   - entrypoints
   - jinja2
   - jupyter_telemetry
-  - jupyterlab=3.1
+  - jupyterlab=3.2
   - nodejs=14
   - oauthlib
   - pamela
@@ -23,8 +23,8 @@ dependencies:
   - sqlalchemy
   - tornado=6
   - traitlets=5
+  - jupyterhub=2.0.0
   - pip:
-    - jupyterhub==2.0.0rc3
     - escapism
     - jupyterlab-rtc-hub-settings==0.1.1
     - jupyterlab-link-share==0.2.0
