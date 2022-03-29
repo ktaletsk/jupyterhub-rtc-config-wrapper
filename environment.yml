@@ -23,7 +23,7 @@ dependencies:
   - sqlalchemy
   - tornado=6
   - traitlets=5
-  - jupyterhub=2.0.0
+  - jupyterhub=2.1.1
   - pip:
     - escapism
     - jupyterlab-rtc-hub-settings==0.1.1
