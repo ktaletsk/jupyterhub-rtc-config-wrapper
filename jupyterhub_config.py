@@ -10,7 +10,9 @@ c.JupyterHub.authenticator_class = 'dummy'
 c.JupyterHub.cleanup_servers = False
 
 # Specific to my computer configuration, can be changed
+c.JupyterHub.ip = 'localhost'
 c.JupyterHub.port = 8989
+c.JupyterHub.hub_port = 8081
 
 # Read the backed up users and groups
 try:

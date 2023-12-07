@@ -2,29 +2,12 @@ name: jupyterhub-rtc
 channels:
   - conda-forge
 dependencies:
-  - alembic
-  - async_generator
-  - certipy
-  - configurable-http-proxy=4
-  - entrypoints
-  - jinja2
-  - jupyter_telemetry
-  - jupyterlab=3.2
-  - nodejs=14
-  - oauthlib
-  - pamela
+  - python=3.12
   - pip
-  - prometheus_client
-  - psutil
-  - pycurl
-  - python=3.9
-  - python-dateutil
+  - jupyterhub=4.0.2
+  - jupyterlab=4.0
   - requests
-  - sqlalchemy
-  - tornado=6
-  - traitlets=5
-  - jupyterhub=2.1.1
+  - jupyter-collaboration=1.2.0
   - pip:
-    - escapism
-    - jupyterlab-rtc-hub-settings==0.1.1
-    - jupyterlab-link-share==0.2.0
+    - jupyterlab-rtc-hub-settings==0.1.3
+    - jupyterlab-link-share==0.3.0
